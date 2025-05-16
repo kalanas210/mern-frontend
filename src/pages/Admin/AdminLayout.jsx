@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 
 const AdminLayout = () => {
     // Fixed: Use axios from context properly
-    const { axios, navigate, setIsSeller } = useAppContext();
+    const { axios, navigate} = useAppContext();
 
     const sidebarLinks = [
         { name: "Add Product", path: "/admin", icon: assets.add_icon },
