@@ -107,6 +107,7 @@ const OverlayAd = ({
                     </svg>
                 </button>
 
+                {/* Ad content */}
                 <a href={link} onClick={() => setShowAd(false)}>
                     <img
                         src={imageUrl}
