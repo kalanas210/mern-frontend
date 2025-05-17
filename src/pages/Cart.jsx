@@ -138,13 +138,13 @@ const Cart = () => {
         if (products && products.length > 0) {
             getCart();
         }
-    }, [products, cartItems,getCart]);
+    }, [products, cartItems]);
 
     useEffect(() => {
         if (user) {
             getUserAddress();
         }
-    }, [user,getUserAddress]);
+    }, [user]);
 
     // Show loading state while initializing
     if (isLoading) {
